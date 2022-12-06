@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  background: lightcyan;
+}
+#box{
+  //border:1px solid black;
+  width:800px;
+  height:500px ;
+  margin:auto;
+  position: relative;
+
+
+}
+#container{
+  //border:1px solid black;
+  width:1000px;
+  height:200px;
+  margin: 10px auto ;
+  display: flex;
+  justify-content: space-evenly;
+}
+.little{
+  margin:20px;
+  width:150px;
+  height:150px ;
+  outline:none; 
+  border:none;
+ // border:1px solid black;
+ transition: all ease 0.5s;
+}
+.little:active{
+  transform: scale(.9);
+}
+.img{
+   width:150px;
+  height:150px ;
+
+}
+.image{
+  width:800px;
+  height:500px ;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom: 0;
+  left: 0;
+ 
+ 
+}
+#img1{
+  z-index:1 ;
+
+}
